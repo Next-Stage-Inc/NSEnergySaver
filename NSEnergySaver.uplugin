@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "NSEnergySaver",
+	"Description": "The NSEnergySaver plugin is designed exclusively for Unreal Engine projects aiming to enhance power efficiency, especially on battery-operated devices such as laptops and mobile phones. By automatically applying a frame rate limit of 60 FPS through the t.maxfps console command, this plugin helps in reducing excessive CPU and GPU usage, thus extending battery life and lowering heat production. Ideal for developers looking to optimize their projects for the Epic Games Store, NSEnergySaver is a critical tool for ensuring that games run smoothly without unnecessarily draining resources or affecting device performance.",
+	"Category": "Other",
+	"CreatedBy": "Next Stage Inc.",
+	"CreatedByURL": "nextstage.co.kr",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "NSEnergySaver",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}
